@@ -11,12 +11,13 @@ pipeline{
         stage('sub-job1'){
           steps{
             echo 'action1'
-            echo 'fix'
+            echo 'fix me'
           }
         }
         stage('sub-job2'){
           steps{
             echo 'action2'
+            echo 'hello'
           }
         }
       }
