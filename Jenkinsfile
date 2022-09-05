@@ -17,7 +17,7 @@ pipeline{
         stage('sub-job2'){
           steps{
             echo 'action2'
-            echo 'hello'
+            echo 'hello me'
           }
         }
       }
