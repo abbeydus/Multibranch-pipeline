@@ -20,6 +20,7 @@ pipeline{
             echo 'action2'
             echo 'hello me'
             echo 'sup'
+            echo 'hello'
           }
         }
       }
