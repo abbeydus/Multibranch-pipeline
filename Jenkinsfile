@@ -12,7 +12,10 @@ pipeline{
           steps{
             echo 'action1'
             echo 'fix me'
+      develop
             echo 'see you'
+            echo ' see you'
+            main
           }
         }
         stage('sub-job2'){
