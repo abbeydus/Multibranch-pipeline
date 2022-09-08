@@ -12,7 +12,7 @@ pipeline{
           steps{
             echo 'action1'
             echo 'fix me'
-            echo ' see you, mm'
+            echo ' see you'
           }
         }
         stage('sub-job2'){
